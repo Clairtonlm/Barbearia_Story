@@ -163,7 +163,7 @@ form{
 	margin: 40px 0;
 
 }
-form label, form p{
+form label, form legend{
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
@@ -176,4 +176,39 @@ form label, form p{
 }
 .checkbox{
 	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;/*tamanho do botao*/
+	padding: 15px 0;/*espaco entre texto e borda interna */
+	background: orange;
+	color: white; /* cor da foonte*/
+	font-weight: bold;/* peso da fonte aqui e negrito*/
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	transition: 1s all ;
+	cursor: pointer;
+
+}
+
+.enviar:hover{
+	background: red;
+	/*transform: ; aumntar quando mause passa se for 20% 1.2*/
+	transform: rotate(70deg) scale(1.2);/* faz uma rotação do item*/
+}
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
