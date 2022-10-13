@@ -3,14 +3,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Barbearia Modelo</title>
-		<link rel="stylesheet" href="style-home.css">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2? família=Montserrat:wght@100&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 		<header>
-			
-			<div class="nav-itens">
-				<h1 class="titulo-principal">Barbearia Modelo</h1><!--teste-->
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
+
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -20,28 +22,49 @@
 				</nav>
 			</div>
 		</header>
-		<img id="banner" src="banner.jpg">
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Barbearia Modelo</h2>
-	 
-			<p>Localizada no coração da cidade a <strong>Barbearia Modelo</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Modelo já é destaque na cidade e conquista novos clientes a cada dia.</p>
+		<img class="banner" src="banner.jpg">
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia Modelo</h2>
+				<img class="utensilios" src="utensilios.jpg" alt="Utensilios de Barbeiro">
+		
+				<p>Localizada no coração da cidade a <strong>Barbearia Modelo</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Modelo já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3><br>
+				<p>Nosso estabelecimento está localizado no coração da cidade.</p><br>
 
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Benefícios</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20649.49746692246!2d-38.454344877734826!3d-3.8669296120586485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c75a680f6344f5%3A0xdf7b7d96071db65d!2zRXVzw6liaW8sIENF!5e0!3m2!1spt-BR!2sbr!4v1665401827105!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
 
-			<ul>
-				<li class="itens">Atendimento aos Clientes</li>
-				<li class="itens">Espaço diferenciado</li>
-				<li class="itens">Localização</li>
-				<li class="itens">Profissionais Qualificados</li>
-			</ul>
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+				
+				<div class="conteudo-beneficios"><hr>
+					<ul class="itens-beneficios">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="beneficios.jpg" class="imagembeneficios">
+				</div>
 
-			<img src="beneficios.jpg" class="imagembeneficios">
-		</div>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/EhlZdokrFtY?start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+				</div>
+
+			</section>
+		</main>
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
 	</body>
 </html>
