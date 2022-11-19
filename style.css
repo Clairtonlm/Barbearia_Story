@@ -223,6 +223,8 @@ td, th{
 	text-align: center;
 	font-size: 2em;
 	clear: left;
+	/*color: rgba(0,0,0,0.3);/*com opacidade*/
+	
 
 
 }
@@ -269,8 +271,31 @@ td, th{
 }
 .imagembeneficios{
 	width: 60%;
+	opacity: 0.3;
+	transition: 300ms;
+	box-shadow: 10px 10px 5px  #000000;
 }
+.imagembeneficios:hover{
+	opacity: 1;
+	
+}
+
 .video{
 	width: 560px;
 	margin: 2em auto;
+}
+/*Media */
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa, .video{
+		width: 100%;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position:static;
+	}
+	.itens-beneficios, .imagembeneficios{
+		width: 100%;
+	}
 }

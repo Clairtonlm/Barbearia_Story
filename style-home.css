@@ -40,6 +40,7 @@ em strong {
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
+	box-shadow: inset 0 0 30px #FF0000;
 }
 
 ul {
@@ -51,4 +52,5 @@ ul {
 
 .imagembeneficios {
 	width: 50%;
+	
 }
